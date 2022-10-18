@@ -1,0 +1,17 @@
+<html>
+    <body>
+        
+        <p>klik untuk merubah warna,.</p>
+
+        <button onclick="myfunction()">ubah warna</button>
+
+        <script>
+            function myfunction(){
+                var warna = prompt('ketikan warna yang kamu inginkan (english)')
+                if (warna != null){
+                    document.getElementsByTagName('body')[0].style.backgroundColor = warna;
+                }
+            }
+        </script>
+    </body>
+</html>
